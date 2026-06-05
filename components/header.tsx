@@ -70,8 +70,8 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#download"
-            className="hidden sm:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 hover:scale-[1.03] elevation-soft"
+            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
+            className="hidden sm:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-ink text-sm font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 hover:scale-[1.03] elevation-soft"
           >
             <Download size="16" />
             <span>Download</span>
@@ -106,9 +106,9 @@ export function Header() {
             </a>
           ))}
           <a
-            href="#download"
+            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
             onClick={() => setMenuOpen(false)}
-            className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white text-sm font-semibold px-5 py-2.5 rounded-lg mt-2 transition-all"
+            className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-ink text-sm font-semibold px-5 py-2.5 rounded-lg mt-2 transition-all"
           >
             <Download size="16" />
             Download

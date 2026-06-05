@@ -1,23 +1,7 @@
-'use client'
-
 import { Download } from 'lucide-react'
 import Image from 'next/image'
-import { useState } from 'react'
 
 export function DownloadCard() {
-  const [isDownloading, setIsDownloading] = useState(false)
-
-  const handleDownload = () => {
-    setIsDownloading(true)
-    // Simulate download start
-    setTimeout(() => {
-      setIsDownloading(false)
-      alert('Download started! SMR Agro v1.0.0 APK is being downloaded.')
-      // In production, this would be an actual APK URL
-      window.open('https://example.com/smr-agro-v1.0.0.apk', '_blank')
-    }, 500)
-  }
-
   return (
     <section className="w-full bg-[#F9FAFB] py-16 md:py-24">
       <div className="max-w-2xl mx-auto px-4">
@@ -58,14 +42,13 @@ export function DownloadCard() {
           </div>
 
           {/* Download Button */}
-          <button
-            onClick={handleDownload}
-            disabled={isDownloading}
-            className="w-full bg-[#1FA24A] hover:bg-[#1a8a3d] disabled:bg-gray-400 text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-3 mb-4"
+          <a
+            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
+            className="w-full bg-[#1FA24A] hover:bg-[#1a8a3d] text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-3 mb-4"
           >
             <Download size={24} />
             <span>Download APK (35 MB)</span>
-          </button>
+          </a>
 
           {/* Version Info */}
           <p className="text-xs text-[#6B7280]">

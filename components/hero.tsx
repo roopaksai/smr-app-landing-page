@@ -63,7 +63,7 @@ export function HeroSection() {
 
         <div className="reveal-item animate-reveal flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
           <a
-            href="#download"
+            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
             className="inline-flex items-center gap-2.5 bg-primary hover:bg-primary-dark text-ink font-bold px-7 py-3.5 rounded-xl text-sm sm:text-base transition-all duration-200 hover:scale-[1.03] elevation-strong"
           >
             <Download size="20" />

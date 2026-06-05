@@ -10,8 +10,8 @@ const contacts = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'support@smragronutrients.com',
-    href: 'mailto:support@smragronutrients.com',
+    value: 'smragro2013@gmail.com',
+    href: 'mailto:smragro2013@gmail.com',
   },
   {
     icon: MapPin,

@@ -17,13 +17,13 @@ export function ContactStrip() {
           </a>
 
           <a
-            href="mailto:support@smragronutrients.com"
+            href="mailto:smragro2013@gmail.com"
             className="flex items-center gap-3 text-white hover:text-white/80 transition-opacity"
           >
             <Mail size="20" className="flex-shrink-0" />
             <div>
               <p className="text-xs font-medium opacity-70">Email</p>
-              <p className="text-sm md:text-lg font-semibold">support@smragronutrients.com</p>
+              <p className="text-sm md:text-lg font-semibold">smragro2013@gmail.com</p>
             </div>
           </a>
 

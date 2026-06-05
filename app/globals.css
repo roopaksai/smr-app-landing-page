@@ -15,6 +15,8 @@
   --color-accent-dark: var(--accent-dark);
   --color-accent-blue: var(--accent-blue);
   --color-accent-blue-dark: var(--accent-blue-dark);
+  --color-accent-green: var(--accent-green);
+  --color-accent-green-dark: var(--accent-green-dark);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-surface: var(--surface);
@@ -75,6 +77,8 @@
   --accent-dark: oklch(0.70 0.28 136);
   --accent-blue: oklch(0.58 0.22 257);
   --accent-blue-dark: oklch(0.48 0.24 258);
+  --accent-green: oklch(0.55 0.18 145);
+  --accent-green-dark: oklch(0.45 0.20 143);
   --ink: oklch(0.13 0.008 70);
   --muted: oklch(0.48 0.012 70);
   --surface: oklch(0.965 0.008 70);
@@ -117,6 +121,8 @@
   --accent-dark: oklch(0.62 0.28 136);
   --accent-blue: oklch(0.62 0.22 257);
   --accent-blue-dark: oklch(0.50 0.24 258);
+  --accent-green: oklch(0.58 0.18 145);
+  --accent-green-dark: oklch(0.48 0.20 143);
   --accent-foreground: oklch(0.985 0 0);
   --ink: oklch(0.92 0.008 70);
   --surface: oklch(0.18 0.01 70);

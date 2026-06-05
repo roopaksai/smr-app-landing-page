@@ -5,7 +5,7 @@ export function DownloadCard() {
   return (
     <section
       id="download"
-      className="relative py-20 md:py-32 overflow-hidden bg-accent-blue"
+      className="relative py-20 md:py-32 overflow-hidden bg-accent-green"
     >
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_0%,oklch(1_0_0/0.08),transparent)]" />
 
@@ -13,12 +13,12 @@ export function DownloadCard() {
 
       <div className="relative z-10 max-w-2xl mx-auto px-5 md:px-6 text-center">
         <div className="flex justify-center mb-6 md:mb-8">
-          <div className="relative w-16 h-16 md:w-20 md:h-20">
+          <div className="relative w-16 h-16 md:w-20 md:h-20 bg-black rounded-2xl p-1.5">
             <Image
               src="https://smragronutrients.com/images/logo01.jpg"
               alt="SMR Agro App"
               fill
-              className="object-contain rounded-2xl ring-2 ring-white/20"
+              className="object-contain"
             />
           </div>
         </div>
