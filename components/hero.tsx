@@ -13,7 +13,7 @@ export function HeroSection() {
       ([entry]) => {
         if (entry.isIntersecting) {
           el.querySelectorAll('.reveal-item').forEach((item, i) => {
-            ;(item as HTMLElement).style.transitionDelay = `${i * 120}ms`
+            ; (item as HTMLElement).style.transitionDelay = `${i * 120}ms`
             item.classList.add('animate-reveal-in')
           })
           observer.unobserve(el)
@@ -63,7 +63,7 @@ export function HeroSection() {
 
         <div className="reveal-item animate-reveal flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
           <a
-            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.0/app-release.apk"
             className="inline-flex items-center gap-2.5 bg-primary hover:bg-primary-dark text-ink font-bold px-7 py-3.5 rounded-xl text-sm sm:text-base transition-all duration-200 hover:scale-[1.03] elevation-strong"
           >
             <Download size="20" />

@@ -43,7 +43,7 @@ export function DownloadCard() {
 
           {/* Download Button */}
           <a
-            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.0/app-release.apk"
             className="w-full bg-[#1FA24A] hover:bg-[#1a8a3d] text-white font-bold py-4 px-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-200 flex items-center justify-center gap-3 mb-4"
           >
             <Download size={24} />

@@ -27,11 +27,10 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled
           ? 'bg-white/85 backdrop-blur-lg border-b border-border-subtle'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <div className="max-w-6xl mx-auto px-5 md:px-6 h-16 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2.5">
@@ -44,9 +43,8 @@ export function Header() {
             />
           </div>
           <span
-            className={`font-display font-semibold text-base md:text-lg tracking-tight transition-colors ${
-              scrolled ? 'text-ink' : 'text-white'
-            }`}
+            className={`font-display font-semibold text-base md:text-lg tracking-tight transition-colors ${scrolled ? 'text-ink' : 'text-white'
+              }`}
           >
             SMR Agro
           </span>
@@ -57,11 +55,10 @@ export function Header() {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className={`text-sm font-medium transition-colors duration-200 ${
-                scrolled
+              className={`text-sm font-medium transition-colors duration-200 ${scrolled
                   ? 'text-ink/70 hover:text-primary'
                   : 'text-white/80 hover:text-primary-light'
-              }`}
+                }`}
             >
               {item}
             </a>
@@ -70,7 +67,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.0/app-release.apk"
             className="hidden sm:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-ink text-sm font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 hover:scale-[1.03] elevation-soft"
           >
             <Download size="16" />
@@ -79,9 +76,8 @@ export function Header() {
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className={`md:hidden p-2 rounded-lg transition-colors ${
-              scrolled ? 'text-ink hover:bg-black/5' : 'text-white hover:bg-white/10'
-            }`}
+            className={`md:hidden p-2 rounded-lg transition-colors ${scrolled ? 'text-ink hover:bg-black/5' : 'text-white hover:bg-white/10'
+              }`}
             aria-label={menuOpen ? 'Close menu' : 'Open menu'}
           >
             {menuOpen ? <X size="22" /> : <Menu size="22" />}
@@ -90,9 +86,8 @@ export function Header() {
       </div>
 
       <div
-        className={`md:hidden fixed inset-x-0 top-16 transition-all duration-300 overflow-hidden ${
-          menuOpen ? 'max-h-80' : 'max-h-0'
-        }`}
+        className={`md:hidden fixed inset-x-0 top-16 transition-all duration-300 overflow-hidden ${menuOpen ? 'max-h-80' : 'max-h-0'
+          }`}
       >
         <nav className="bg-white/95 backdrop-blur-lg border-b border-border-subtle px-5 py-4 flex flex-col gap-1">
           {navItems.map((item) => (
@@ -106,7 +101,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href="https://jrnbjwgzrpmvjgfoajib.supabase.co/storage/v1/object/public/SMR-app/smr-app-v0.1.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.0/app-release.apk"
             onClick={() => setMenuOpen(false)}
             className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-ink text-sm font-semibold px-5 py-2.5 rounded-lg mt-2 transition-all"
           >
