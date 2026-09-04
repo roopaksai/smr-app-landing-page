@@ -67,7 +67,7 @@ export function Header() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.01/app-release.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.03/app-release.apk"
             className="hidden sm:inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-ink text-sm font-semibold px-5 py-2.5 rounded-lg transition-all duration-200 hover:scale-[1.03] elevation-soft"
           >
             <Download size="16" />
@@ -101,7 +101,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.01/app-release.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.03/app-release.apk"
             onClick={() => setMenuOpen(false)}
             className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-ink text-sm font-semibold px-5 py-2.5 rounded-lg mt-2 transition-all"
           >
