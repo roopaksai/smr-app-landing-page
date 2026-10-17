@@ -63,7 +63,7 @@ export function HeroSection() {
 
         <div className="reveal-item animate-reveal flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
           <a
-            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.03/app-release.apk"
+            href="https://smr-agro-assets.s3.amazonaws.com/releases/stable/android/2.6.09/app-release.apk"
             className="inline-flex items-center gap-2.5 bg-primary hover:bg-primary-dark text-ink font-bold px-7 py-3.5 rounded-xl text-sm sm:text-base transition-all duration-200 hover:scale-[1.03] elevation-strong"
           >
             <Download size="20" />
